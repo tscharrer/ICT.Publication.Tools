@@ -8,7 +8,7 @@ namespace ICT.Publication.Tools
 {
     class Program
     {
-        static bool isDebugMode = bool.Parse(ConfigurationManager.AppSettings["isDebugMode"]);
+        readonly static bool isDebugMode = bool.Parse(ConfigurationManager.AppSettings["isDebugMode"]);
 
         static void Main(string[] args)
         {
